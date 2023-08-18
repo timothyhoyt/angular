@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent {
-  hero = 'windstorm'
+  hero = 'I love my wife :)'
 }
