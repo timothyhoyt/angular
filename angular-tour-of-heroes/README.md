@@ -1,27 +1,33 @@
-# AngularTourOfHeroes
+From command line / terminal, go to root folder (c:_home\simplilearn) or (~/_home/caltech)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+mkdir <new project name>
 
-## Development server
+cd <new project name>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+git init
 
-## Code scaffolding
+For Windows: echo hello > README.md
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For Mac / Linux: touch README.md
 
-## Build
+Go to your browser and log into github.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Create repository <new project name> in github.
 
-## Running unit tests
+You will receive instructions on what to do next in github.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Back to command line, let's commit what we have:
 
-## Running end-to-end tests
+git add .
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+git commit -m "init" (or whatever initial comment you want)
 
-## Further help
+Copy first line from github instruction (git add remote origin <some url>)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+git branch -M main
+
+git push -u origin main (the first time we do this in a branch we need to specify what branch and what remote. After this you can just git push)
+
+Check: git status (seeing that everything is commited and up to date) Refresh github page and see README.md file there.
+
+There are MANY ways to do this, but this is the way we just did it.
