@@ -7,5 +7,8 @@ import {Hero } from '../hero' ;
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent {
-  hero = 'I love my wife :)'
+  hero : Hero = {
+    id : 1,
+    name: 'Windstorm'
+  } 
 }
